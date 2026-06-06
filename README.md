@@ -27,25 +27,6 @@ El proyecto cubre todo el ciclo de vida del dato:
 - **Orquestación** automática del pipeline con Apache Airflow
 - **Visualización** mediante un dashboard interactivo en Streamlit y reportes en Power BI
 
----
-
-## Arquitectura
-Online Retail II (.xlsx)
-↓
-[Extract] Python + Pandas
-↓
-[Transform] Limpieza y modelado
-↓
-[Load] PostgreSQL (Esquema Estrella)
-↓
-┌──────────────────┐
-│  Streamlit App   │
-│    Power BI      │
-└──────────────────┘
-↑
-Apache Airflow (Orquestación)
-Docker (Infraestructura)
------------
 ## Modelo de Datos
 
 Esquema estrella con las siguientes tablas:
@@ -59,7 +40,10 @@ Esquema estrella con las siguientes tablas:
 
 ## Dashboard
 
-![Dashboard](dashboard/screenshot.png)
+![Dashboard](dashboard/screenshot1.png)
+
+![Dashboard](dashboard/screenshot2.png)
+
 
 ---
 
